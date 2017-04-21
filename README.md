@@ -3,7 +3,9 @@ Instructions for getting started with ITS development infrastructure
 
 Give it a try: (Thanks to Varnit for reviewing and improving these instructions!)
 The swarm is located at:
+````
 swarm.docker.usc.edu
+````
 You will need a new set of private keys to communicate with this swarm. These keys are in the swarm-tls directory of a blue USB drive located in the top-right drawer in my office.
 
 Jenkins is now Shibbed and has also moved to the swarm. If you cannot sign-on, please send an email to me or Eric Hattemer ehatteme@usc.edu to be added to the Jenkins group. Jenkins is located at https://jenkins.docker.usc.edu
@@ -19,7 +21,7 @@ cd helloweb
 ````
 
 Try to push it to the nexus repo configured in the pom file:
-For those who are new to Apache Maven. Follow the instructions. Download the binary zip archive.:- Download Install
+For those who are new to Apache Maven. Follow the instructions. Download the binary zip archive. Download Install
 ````
 mvn clean package
 ````
@@ -75,7 +77,7 @@ http://helloweb.docker.usc.edu:8085/helloweb
 
 Note:- In case the service helloweb already exists, use the commands 
 ````
-docker service ls   :- list the running services
-docker service rm SERVICE_NAME    :- remove the listed service
+docker service ls   # list the running services
+docker service rm SERVICE_NAME    # remove the listed service
 ````
-(be very careful with "docker service rm":- do not remove any other services. ) 
+(be very careful with "docker service rm" # do not remove any other services. ) 
