@@ -66,9 +66,9 @@ $env:DOCKER_TLS_VERIFY=1
  
 See if you can run this container on our swarm:
 ````
-docker service create --name helloweb -p 8085:8080 dtr.docker.usc.edu/helloweb
+docker stack deploy --compose-file docker-compose.yml helloweb
 ````
-(note the anonymous registry name is different from the authenticated registry name)                                  
+(Take a look at the docker-compose file. Note that the anonymous registry name is different from the authenticated registry name)                                  
  
 Point your browser to:
 ````
@@ -77,7 +77,8 @@ http://helloweb.docker.usc.edu:8085/helloweb
 
 Note:- In case the service helloweb already exists, use the commands 
 ````
+docker stack ls  # list the services
 docker service ls   # list the running services
-docker service rm SERVICE_NAME    # remove the listed service
+docker stack rm helloweb    # remove the listed service
 ````
 (be very careful with "docker service rm" # do not remove any other services. ) 
