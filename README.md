@@ -16,14 +16,14 @@ Try this quick test:
 Checkout this git project:
 
 ````
-git clone https://github.com/usc-its/helloweb
+git clone https://github.com/uscdev/helloweb
 cd helloweb
 ````
 
-Try to push it to the nexus repo configured in the pom file:
+Build the maven project. You don't have to set up a dev environment, use the maven docker container.
 For those who are new to Apache Maven. Follow the instructions. Download the binary zip archive. Download Install
 ````
-mvn clean package
+docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3.2-jdk-7 mvn clean package
 ````
 
 See if you can set up and build this project in jenkins. Can you deploy to nexus? Can you rebuild on a trigger from github? Can you auto-deploy the docker image? Can you auto-deploy to the swarm?
