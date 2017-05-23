@@ -51,7 +51,7 @@ For Linux users
 ````
 export DOCKER_CERT_PATH=/home/path to certs/swarm-tls
 export DOCKER_TLS_VERIFY=1
-export DOCKER_HOST= tcp://dcorley-swarm-mgr01.usc.edu:2376
+export DOCKER_HOST=tcp://dcorley-swarm-mgr01.usc.edu:2376
 ````
 
 For Windows users, (use powershell, not command prompt)
