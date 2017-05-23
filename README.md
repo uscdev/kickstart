@@ -61,6 +61,8 @@ $env:DOCKER_HOST="tcp://dcorley-swarm-mgr01.usc.edu:2376"
 $env:DOCKER_CERT_PATH="/absolute path to certs/swarm-tls"
 $env:DOCKER_TLS_VERIFY=1
 ````
+(Note: replace "/absolute path to certs" with the path to the certs on your hard drive)
+(Windows note: You may have to escape the backslash in your paths with \\)
 
 (If you don’t have the private certs, see me – on the blue USB drive in the upper left drawer)
  
