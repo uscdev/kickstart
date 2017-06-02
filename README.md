@@ -1,7 +1,17 @@
 # kickstart
 Instructions for getting started with ITS development infrastructure
 
-Give it a try: (Thanks to Varnit for reviewing and improving these instructions!)
+We use the MEAN as our primary dev stack. Here are the tools to learn:
+
+IDE https://www.jetbrains.com/student This version is free for students. Download Webstorm.
+Git / Github (www.github.com)
+Jenkins (https://jenkins.io)
+Docker (www.docker.com)
+Node (nodejs.org)
+Angular2 (https://angular.io)
+
+After learning these technologies, follow this tutorial to familiarize yourself with our dev environment:
+
 The swarm is located at:
 ````
 swarm.docker.usc.edu
