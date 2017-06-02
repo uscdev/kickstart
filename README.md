@@ -3,12 +3,12 @@ Instructions for getting started with ITS development infrastructure
 
 We use the MEAN as our primary dev stack. Here are the tools to learn:
 
-IDE https://www.jetbrains.com/student This version is free for students. Download Webstorm.
-Git / Github (www.github.com)
-Jenkins (https://jenkins.io)
-Docker (www.docker.com)
-Node (nodejs.org)
-Angular2 (https://angular.io)
+- IDE https://www.jetbrains.com/student This version is free for students. Download Webstorm.
+- Git / Github (www.github.com)
+- Jenkins (https://jenkins.io)
+- Docker (www.docker.com)
+- Node (nodejs.org)
+- Angular2 (https://angular.io)
 
 After learning these technologies, follow this tutorial to familiarize yourself with our dev environment:
 
